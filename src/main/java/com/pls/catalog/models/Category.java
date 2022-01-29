@@ -30,9 +30,6 @@ public class Category implements Serializable {
         this.updatedAt = updatedAt;
     }
 
-    public Category(long l, String books) {
-    }
-
     public Long getId() {
         return id;
     }
